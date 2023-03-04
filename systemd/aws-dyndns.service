@@ -8,6 +8,7 @@ Type=simple
 User=nobody
 Group=nogroup
 EnvironmentFile=/etc/aws-dyndns.conf
+Restart=on-failure
 
 [Install]
 WantedBy=default.target
